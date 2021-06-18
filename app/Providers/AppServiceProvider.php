@@ -29,5 +29,6 @@ class AppServiceProvider extends ServiceProvider
     {
         BlogPost::observe(BlogPostObserver::class);
         BlogCategory::observe(BlogCategoryObserver::class);
+
     }
 }
