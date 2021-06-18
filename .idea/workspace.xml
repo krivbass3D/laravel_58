@@ -10,15 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34e006dd-9b58-4a59-9ad0-9fd72082c9e7" name="Default Changelist" comment="Редактирование поста">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BlogPost/BlogPostUpdateRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel_58.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_58.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="34e006dd-9b58-4a59-9ad0-9fd72082c9e7" name="Default Changelist" comment="Обновление поста">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/includes/post_edit_main_col.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/includes/post_edit_main_col.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623937180375</updated>
       <workItem from="1623937181421" duration="120000" />
-      <workItem from="1624016398812" duration="1580000" />
+      <workItem from="1624016398812" duration="3995000" />
     </task>
     <task id="LOCAL-00001" summary="Утановлен ide-helper и debugbar">
       <created>1623940929628</created>
@@ -187,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624009845374</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Обновление поста">
+      <created>1624018118681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624018118681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,13 +211,14 @@
     <MESSAGE value="Утановлен ide-helper и debugbar" />
     <MESSAGE value="Миграция" />
     <MESSAGE value="Редактирование поста" />
-    <option name="LAST_COMMIT_MESSAGE" value="Редактирование поста" />
+    <MESSAGE value="Обновление поста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление поста" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624015569912">
+    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624018640237">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624015569912" />
+    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624018640237" />
     <state x="0" y="606" key="NewPhpClassDialog" timestamp="1624015524307">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -232,5 +235,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="761" y="486" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624010277170" />
+    <state x="665" y="481" width="672" height="678" key="search.everywhere.popup" timestamp="1624020310567">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="665" y="481" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1624020310567" />
   </component>
 </project>
