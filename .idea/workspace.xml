@@ -10,11 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34e006dd-9b58-4a59-9ad0-9fd72082c9e7" name="Default Changelist" comment="Observer">
+    <list default="true" id="34e006dd-9b58-4a59-9ad0-9fd72082c9e7" name="Default Changelist" comment="Observer category">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BlogPost/BlogPostCreateRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Observers/BlogCategoryObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/BlogCategoryObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/BlogPostObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/BlogPostObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/includes/result_messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/includes/result_messages.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +162,8 @@
       <option name="presentableId" value="Default" />
       <updated>1623937180375</updated>
       <workItem from="1623937181421" duration="120000" />
-      <workItem from="1624016398812" duration="5043000" />
+      <workItem from="1624016398812" duration="6862000" />
+      <workItem from="1624024537897" duration="1633000" />
     </task>
     <task id="LOCAL-00001" summary="Утановлен ide-helper и debugbar">
       <created>1623940929628</created>
@@ -197,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624020691881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Observer category">
+      <created>1624021684258</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624021684258</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,17 +231,18 @@
     <MESSAGE value="Редактирование поста" />
     <MESSAGE value="Обновление поста" />
     <MESSAGE value="Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer" />
+    <MESSAGE value="Observer category" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer category" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624018640237">
+    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624022615370">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624018640237" />
-    <state x="0" y="606" key="NewPhpClassDialog" timestamp="1624015524307">
+    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624022615370" />
+    <state x="0" y="606" key="NewPhpClassDialog" timestamp="1624022583614">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="0" y="606" key="NewPhpClassDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624015524307" />
+    <state x="0" y="606" key="NewPhpClassDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624022583614" />
     <state x="778" y="848" key="NewPhpFileDialog" timestamp="1624001046706">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

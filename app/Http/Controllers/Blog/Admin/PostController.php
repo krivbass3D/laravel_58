@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Blog\Admin;
 
+use App\Http\Requests\BlogPost\BlogPostCreateRequest;
 use App\Http\Requests\BlogPost\BlogPostUpdateRequest;
+use App\Models\BlogPost;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Repositories\BlogPostRepository;
@@ -40,7 +42,10 @@ class PostController extends BaseController
      */
     public function create()
     {
-        dd(__METHOD__, __FUNCTION__);
+        $item = new BlogPost();
+        $categoryList = $this->blogCategoryRepository->getForComboBox();
+
+        return view('blog.admin.posts.edit', compact('item','categoryList'));
     }
 
     /**
@@ -49,9 +54,20 @@ class PostController extends BaseController
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(BlogPostCreateRequest $request)
     {
-        dd(__METHOD__, __FUNCTION__, $request);
+        $data = $request->input();
+
+        //Создаст объект но не добавит в БД
+        $item = (new BlogPost())->create($data);
+
+        if ($item) {
+            return redirect()->route('blog.admin.posts.edit', [$item->id])
+                ->with(['success' => 'Успешно сохранено']);
+        }else{
+            return back()->withErrors(['msg'=>'Ошибка сохранения'])
+                ->withInput();
+        }
     }
 
     /**
