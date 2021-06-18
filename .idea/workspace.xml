@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="34e006dd-9b58-4a59-9ad0-9fd72082c9e7" name="Default Changelist" comment="" />
+    <list default="true" id="34e006dd-9b58-4a59-9ad0-9fd72082c9e7" name="Default Changelist" comment="Редактирование поста">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BlogPost/BlogPostUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel_58.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_58.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/includes/post_edit_main_col.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/includes/post_edit_main_col.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -100,6 +121,14 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
     </include_path>
   </component>
   <component name="ProjectId" id="1u4uSKhuYB5onQ92DTFEVzMi6QF" />
@@ -116,6 +145,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\laravel_58\resources\views\blog\admin\posts" />
       <recent name="E:\OpenServer\domains\laravel_58\app\Models" />
     </key>
   </component>
@@ -134,10 +164,73 @@
       <option name="presentableId" value="Default" />
       <updated>1623937180375</updated>
       <workItem from="1623937181421" duration="120000" />
+      <workItem from="1624016398812" duration="1580000" />
     </task>
+    <task id="LOCAL-00001" summary="Утановлен ide-helper и debugbar">
+      <created>1623940929628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623940929628</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Миграция">
+      <created>1623942261941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623942261941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Редактирование поста">
+      <created>1624009845374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624009845374</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Утановлен ide-helper и debugbar" />
+    <MESSAGE value="Миграция" />
+    <MESSAGE value="Редактирование поста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Редактирование поста" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624015569912">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="717" y="670" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624015569912" />
+    <state x="0" y="606" key="NewPhpClassDialog" timestamp="1624015524307">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="0" y="606" key="NewPhpClassDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624015524307" />
+    <state x="778" y="848" key="NewPhpFileDialog" timestamp="1624001046706">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="778" y="848" key="NewPhpFileDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624001046706" />
+    <state x="483" y="216" key="Vcs.Push.Dialog.v2" timestamp="1624010296965">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="483" y="216" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1624010296965" />
+    <state x="761" y="486" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1624010277170">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="761" y="486" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624010277170" />
   </component>
 </project>
