@@ -9,10 +9,41 @@ class BlogCategory extends Model
 {
     use SoftDeletes;
 
+    const ROOT = 1;
+
     protected $fillable = [
         'title',
         'slug',
         'parent_id',
         'description',
     ];
+
+    public function parentCategory()
+    {
+        return$this->belongsTo(BlogCategory::class, 'parent_id', 'id');
+    }
+
+    public function getParentTitleAttribute()
+    {
+        $title = $this->parentCategory->tite
+            ?? ($this->isRoot()
+                ? 'Корень'
+                : '???');
+        return $title;
+
+    }
+
+    public function isRoot()
+    {
+        return $this->id === BlogCategory::ROOT;
+    }
+
+    public function getTitleAttribute($valueFromObject)
+      {
+        return mb_strtoupper($valueFromObject);
+    }
+    public function setTitleAttribute($incomingValue)
+    {
+        $this->attributes['title'] = mb_strtolower($incomingValue);
+    }
 }
